@@ -97,6 +97,24 @@ Error en la autenticacion
 
 ## Ejemplos para Postman
 
+En la carpeta [postman](<c:\Users\cacer\OneDrive - SENA\2024_ADSO_SENA 3118530\Fase 3. Ejecucion\GA7\GA7-220501096-AA5-EV01  Servicio Web\login-api\postman>) se incluyen dos archivos listos para importar:
+
+- `login-api.postman_environment.json`
+- `login-api.postman_collection.json`
+
+Pasos recomendados en Postman:
+
+1. Importar primero el environment y luego la collection.
+2. Seleccionar el environment `login-api-local`.
+3. Verificar que la API este ejecutandose en `http://localhost:8080`.
+4. Ejecutar las peticiones en este orden:
+   `1. Registro exitoso`
+   `2. Usuario duplicado`
+   `3. Login exitoso`
+   `4. Login incorrecto`
+
+Cada request ya incluye tests automaticos para validar el codigo `200` y el mensaje exacto esperado.
+
 ### Registro exitoso
 
 - Metodo: `POST`
